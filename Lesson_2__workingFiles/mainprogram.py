@@ -6,7 +6,6 @@ For Lesson 2: Examples of importing modules and packages.
 ##########################
 # IMPORTING MODULES
 ##########################
-import moduletest
 
 import moduletest
 
