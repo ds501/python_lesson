@@ -5,6 +5,8 @@ NOTE:
     Short cut to a run line of code in the interpreter / console:  Shift + Alt + e
 '''
 
+
+
 # OUR FIRST PROGRAM
 print 'Hello World'
 
@@ -126,7 +128,7 @@ minute / 60 # returns a 0
 minute2 = 59
 minute2 / 60.0 # returns 0.9833333333333333
 
-
+# -----------------------------------WE LEFT OFF HERE JULY 17-----------------------------------
 # PEMDAS: Order of Operations
 
 minute * 100 / 60 # returns 98
