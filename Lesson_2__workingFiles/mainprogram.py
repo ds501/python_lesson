@@ -6,6 +6,10 @@ For Lesson 2: Examples of importing modules and packages.
 ##########################
 # IMPORTING MODULES
 ##########################
+import os
+os.chdir('Lesson_2__workingFiles')
+sys.path.append(os.getcwd())
+
 
 import moduletest
 
@@ -18,10 +22,9 @@ print moduletest.ageofqueen
 # 78
 
 printhello()
-#   File "<input>", line 1
-#     printhello()
-#     ^
-# IndentationError: unexpected indent
+# Traceback (most recent call last):
+#   File "<input>", line 1, in <module>
+# NameError: name 'printhello' is not defined
 
 moduletest.printhello()
 # hello

@@ -8,10 +8,11 @@ LESSON 2: Functions and Modules
 
 # Python 2.7 comes with 76 of its own pre-defined functions:
 # https://docs.python.org/2.7/library/functions.html
-
 #############################
 
 max(1,5,8)
+
+
 
 min(9, 3, -100)
 
@@ -200,6 +201,13 @@ print returned_variable # 4
 # Open mainprogram.py and moduletest.py
 #############################
 
+import os
+os.chdir('Lesson_2__workingFiles')
+
+#after exercise:
+os.chdir('/Users/saafid/Desktop/Teaching/Python_Lilly/Python_Lessons')
+
+
 
 #############################
 # TRACEBACKS: ERROR TRACKING
@@ -247,7 +255,7 @@ print_twice |   param --> "Pie Jesu domine, Dona eis requiem."
 
 
 
-
+################
 
 
 
